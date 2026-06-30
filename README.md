@@ -10,5 +10,5 @@ wget https://github.com/beiop/purpleguy/archive/refs/heads/main.zip && unzip mai
 
 ## to run ig:
 ```bash
-python3 purpleguy-main/main.py
+python3 purpleguy-main/.venv/bin/python purpleguy-main/main.py
 ```

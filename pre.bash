@@ -1,13 +1,14 @@
 #!/bin/bash
 
-sudo apt update
-sudo apt install python3 -y
 
-
+#Create a virtual enviornment. Python these days always wants one and gets angry without one.
 VENV_DIR=".venv"
 
 if [ ! -d "$VENV_DIR" ]; then
-    sudo apt install python3.12-venv
+
+    #Install python, if it isn't already
+    sudo apt update
+    sudo apt install python3 python3-venv -y
     python3 -m venv "$VENV_DIR"
     echo "Virtual environment created at $VENV_DIR"
 else
