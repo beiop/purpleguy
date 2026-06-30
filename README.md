@@ -10,5 +10,5 @@ rm -rf purpleguy-main && wget https://github.com/beiop/purpleguy/archive/refs/he
 
 ## to run ig:
 ```bash
-python3 purpleguy-main/.venv/bin/python purpleguy-main/main.py
+purpleguy-main/.venv/bin/python purpleguy-main/main.py
 ```
